@@ -1,0 +1,21 @@
+# Ambiente virtuale
+.venv/
+venv/
+
+# Cache e file temporanei
+__pycache__/
+*.pyc
+*.log
+
+# IDE e configurazioni locali
+.idea/
+.vscode/
+
+# File di sistema
+.DS_Store
+
+# Cartelle grandi o modelli YOLO
+runs/
+weights/
+models/
+datasets/
