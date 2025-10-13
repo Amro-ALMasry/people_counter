@@ -2,9 +2,11 @@
 .venv/
 venv/
 
-# Cache e file temporanei
+# Cache e file temporanei di Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 *.log
 
 # IDE e configurazioni locali
@@ -14,8 +16,19 @@ __pycache__/
 # File di sistema
 .DS_Store
 
-# Cartelle grandi o modelli YOLO
+# File e cartelle YOLOv8
 runs/
 weights/
-models/
+yolov8n.pt
+yolov8s.pt
+yolov8m.pt
+yolov8l.pt
+yolov8x.pt
+
+# Datasets o modelli addestrati localmente
 datasets/
+models/
+
+# Backup o file temporanei
+*.bak
+*.tmp
