@@ -39,7 +39,7 @@ while cap.isOpened():
     ultimo_frame_time = tempo_corrente
 
     # Rileva oggetti nell'immagine con confidence più alta
-    results = model(image, classes=[0], verbose=False, conf=0.6)  # class 0 = person
+    results = model(image, classes=[0], verbose=False, conf=0.5)  # class 0 = person
     
     # Conta le persone rilevate
     num_persone_corrente = len(results[0].boxes)
